@@ -34,7 +34,7 @@ var webSocketObj = null;
 var selfConnection = null;
 ioClient = null;
 				
-
+/*
 var replace = require("replace"); 
 
 replace({ 
@@ -44,7 +44,7 @@ paths: ['/etc/wpa_supplicant/wpa_supplicant.conf'],
 recursive: true, 
 silent: true, });
 
-
+*/
 
 gcm = require('node-gcm');
 
