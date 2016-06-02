@@ -4,7 +4,7 @@ module.exports = {
 		var express = require('express');
 		var app = express();
 		var http = require('http');
-		var osipaddress = "192.168.0.124";
+		var osipaddress = "0.0.0.0";
 		var osport = 8085;
 		
 		app.set('port', osport);
@@ -94,7 +94,7 @@ module.exports = {
 		});
 		
 		server.listen(app.get('port'), app.get('ipaddress'), function () {
-			console.log('Express server listening on port ' + app.get('port'));
+			local_server_logger.info('Express server started');
 		});
 		
 	}

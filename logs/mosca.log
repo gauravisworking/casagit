@@ -1,0 +1,24 @@
+[2016-06-02 19:45:23.493] [TRACE] cheese - Entering cheese testing
+[2016-06-02 19:45:23.500] [DEBUG] cheese - Got cheese.
+[2016-06-02 19:45:23.503] [INFO] cheese - Cheese is Gouda.
+[2016-06-02 19:45:23.504] [WARN] cheese - Cheese is quite smelly.
+[2016-06-02 19:45:23.504] [ERROR] cheese - Cheese is too ripe!
+[2016-06-02 19:45:23.514] [FATAL] cheese - Cheese was breeding ground for listeria.
+[2016-06-02 19:45:45.986] [TRACE] cheese - Entering cheese testing
+[2016-06-02 19:45:45.993] [DEBUG] cheese - Got cheese.
+[2016-06-02 19:45:45.996] [INFO] cheese - Cheese is Gouda.
+[2016-06-02 19:45:45.997] [WARN] cheese - Cheese is quite smelly.
+[2016-06-02 19:45:45.997] [ERROR] cheese - Cheese is too ripe!
+[2016-06-02 19:45:46.007] [FATAL] cheese - Cheese was breeding ground for listeria.
+[2016-06-02 20:07:24.909] [TRACE] mosca - Entering cheese testing
+[2016-06-02 20:07:24.919] [WARN] mosca - Cheese is quite smelly.
+[2016-06-02 20:08:13.157] [TRACE] mosca - Entering cheese testing
+[2016-06-02 20:08:13.175] [WARN] mosca - Cheese is quite smelly.
+[2016-06-02 20:08:55.005] [TRACE] mosca - 	Entering cheese testing
+[2016-06-02 20:08:55.013] [WARN] mosca - 	Cheese is quite smelly.
+[2016-06-02 20:11:52.477] [TRACE] mosca - 	Entering cheese testing
+[2016-06-02 20:11:52.488] [WARN] mosca - 	Cheese is quite smelly.
+[2016-06-02 20:19:24.365] [TRACE] mosca - 	Entering cheese testing
+[2016-06-02 20:19:24.375] [WARN] mosca - 	Cheese is quite smelly.
+[2016-06-02 20:46:35.715] [INFO] mosca -  Mosca Server Started 
+[2016-06-02 20:47:50.334] [INFO] mosca -  Mosca Server Started 

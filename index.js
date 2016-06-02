@@ -1,9 +1,26 @@
 require.cache = {};
 
-mosca 			= require('mosca');
-net 			= require('net');
-replaceall		= require("replaceall");
-//Agenda		    = require("agenda");
+net = require('net');
+replaceall = require("replaceall");
+//var Agenda = require("agenda");
+clients = [];
+mosca = null;
+pubSubServer = null;
+mongoClient = null;
+agenda = null;
+
+ws = null;
+io = null;
+staticServer = null;
+ioClient = null;
+
+staticClient = null;
+ipUpdater = null;
+housePublicIP = null;
+webSocketObj = null;
+selfConnection = null;
+
+// 
 
 config = {
 	staticMasterIp : '123.201.194.202',
@@ -15,83 +32,58 @@ config = {
 	agendaDbUrl : "mongodb://localhost:27017/agenda",
 };
 
-clients = [];
-pubSubServer = null;
-mongoClient = null;
-agenda = null;
 
-ws = null;
-io = null;
-var localServer = null;
-var staticServer = null;
-var mongoUtils = null;
-var agendaUtils = null;
-var moscaServer = null;
-var staticClient = null;
-var ipUpdater = null;
-var housePublicIP = null;
-var webSocketObj = null;
-var selfConnection = null;
-ioClient = null;
-				
+
 /*
-var replace = require("replace"); 
+ * var replace = require("replace");
+ * 
+ * replace({ regex: "Rookies", replacement: "martin", paths:
+ * ['/etc/wpa_supplicant/wpa_supplicant.conf'], recursive: true, silent: true,
+ * });
+ * 
+ */
 
-replace({ 
-regex: "Rookies", 
-replacement: "martin", 
-paths: ['/etc/wpa_supplicant/wpa_supplicant.conf'], 
-recursive: true, 
-silent: true, });
+var loggerUtils = require('./loggerUtils');
+loggerUtils.startLogging();
 
-*/
+var gcmUtils = require('./gcmUtils');
+gcmUtils.startGCM();
 
-gcm = require('node-gcm');
-
-gcmmessage = new gcm.Message({collapseKey: 'demo',
-	priority: 'high',
-	notification: {
-		title: "Hello, World",
-		body: "This is a notification that will be displayed ASAP."
-	}});
-
-sender = new gcm.Sender('AIzaSyDhuARb24CYJDknqdX8owCwz6pDyhxvh0c');
-regId = null;
-/*
-// -------------------------------------------------------- Mongo DB ---------------------------------------------
-mongoUtils = require('./mongoUtils');
-mongoUtils.createClient();
-mongoUtils.connect(config.projectDbUrl);
-// -------------------------------------------------------------------------------------------------------------------
-
-// -------------------------------------------------------- Mosca Server ---------------------------------------------
-agendaUtils = require('./agendaUtils');
-agendaUtils.init(config.agendaDbUrl);
-agendaUtils.execute();
-// -------------------------------------------------------------------------------------------------------------------
-*/
-
-
-
-
-// --------------------------------------------------- Websocket Client  -------------------------------------------------
-//webSocketObj = require('./websocket');
-//webSocketObj.initWebSocketServer();
-
-ipUpdater = require('./iputils');
+var ipUpdater = require('./ipUtils');
 ipUpdater.startIPUpdater();
 
+var localServerUtils = require('./localServer');
+localServerUtils.initLocalServer();
 
-// -------------------------------------------------------- Local Websocket Server ---------------------------------------------
-localServer = require('./localServer');
-localServer.initLocalServer();
+var moscaServerUtils = require('./moscaServer');
+moscaServerUtils.initMoscaServer();
+
+/*
+ * // -------------------------------------------------------- Mongo DB
+ * --------------------------------------------- mongoUtils =
+ * require('./mongoUtils'); mongoUtils.createClient();
+ * mongoUtils.connect(config.projectDbUrl); //
+ * -------------------------------------------------------------------------------------------------------------------
+ *  // -------------------------------------------------------- Mosca Server
+ * --------------------------------------------- agendaUtils =
+ * require('./agendaUtils'); agendaUtils.init(config.agendaDbUrl);
+ * agendaUtils.execute(); //
+ * -------------------------------------------------------------------------------------------------------------------
+ */
+
+// --------------------------------------------------- Websocket Client
+// -------------------------------------------------
+// webSocketObj = require('./websocket');
+// webSocketObj.initWebSocketServer();
+
+
+// -------------------------------------------------------- Local Websocket
+// Server ---------------------------------------------
+
 // -------------------------------------------------------------------------------------------------------------------
 
+// -------------------------------------------------------- Mosca Server
+// ---------------------------------------------
 
-
-
-// -------------------------------------------------------- Mosca Server ---------------------------------------------
-moscaServer = require('./moscaServer');
-moscaServer.initMoscaServer();
 // -------------------------------------------------------------------------------------------------------------------
 
