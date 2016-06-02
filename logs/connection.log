@@ -8,3 +8,68 @@
 [2016-06-02 20:11:52.498] [FATAL] connection - 	Cheese was breeding ground for listeria.
 [2016-06-02 20:19:24.374] [INFO] connection - 	Cheese is Gouda.
 [2016-06-02 20:19:24.386] [FATAL] connection - 	Cheese was breeding ground for listeria.
+[2016-06-02 21:04:50.460] [INFO] connection - cloudServerClient connected 
+[2016-06-02 21:04:51.611] [INFO] connection - cloudServerClient authenticated  true
+[2016-06-02 21:04:51.889] [DEBUG] connection - HouseIp :  { housePublicIP: '123.201.194.202' }
+[2016-06-02 21:08:20.709] [ERROR] connection - cloudServerClient disconnected
+[2016-06-02 21:08:21.487] [INFO] connection - cloudServerClient reconnect_attempt 
+[2016-06-02 21:08:21.488] [INFO] connection - cloudServerClient reconnecting
+[2016-06-02 21:08:22.626] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 21:08:23.763] [INFO] connection - cloudServerClient reconnect_attempt 
+[2016-06-02 21:08:23.764] [INFO] connection - cloudServerClient reconnecting
+[2016-06-02 21:08:25.304] [INFO] connection - cloudServerClient reconnect :  2
+[2016-06-02 21:08:26.473] [INFO] connection - cloudServerClient connected 
+[2016-06-02 21:08:28.320] [INFO] connection - cloudServerClient authenticated  true
+[2016-06-02 21:08:28.705] [DEBUG] connection - HouseIp :  { housePublicIP: '123.201.194.202' }
+[2016-06-02 21:11:44.031] [INFO] connection - cloudServerClient connected 
+[2016-06-02 21:11:45.310] [INFO] connection - cloudServerClient authenticated  true
+[2016-06-02 21:11:45.900] [DEBUG] connection - HouseIp :  { housePublicIP: '123.201.194.202' }
+[2016-06-02 21:12:21.800] [ERROR] connection - cloudServerClient disconnected
+[2016-06-02 21:12:29.131] [INFO] connection - cloudServerClient connected 
+[2016-06-02 21:12:30.289] [INFO] connection - cloudServerClient authenticated  true
+[2016-06-02 21:12:30.550] [DEBUG] connection - HouseIp :  { housePublicIP: '123.201.194.202' }
+[2016-06-02 21:19:10.430] [INFO] connection - cloudServerClient connected 
+[2016-06-02 21:19:11.586] [INFO] connection - cloudServerClient authenticated  true
+[2016-06-02 21:19:11.866] [DEBUG] connection - HouseIp :  { housePublicIP: '123.201.194.202' }
+[2016-06-02 21:24:34.940] [INFO] connection - cloudServerClient connected 
+[2016-06-02 21:24:36.103] [INFO] connection - cloudServerClient authenticated  true
+[2016-06-02 21:24:36.396] [DEBUG] connection - HouseIp :  { housePublicIP: '123.201.194.202' }
+[2016-06-02 21:24:36.455] [INFO] connection - Self connection established in  -1464882876454
+[2016-06-02 21:24:36.484] [INFO] connection - authenticated self server
+[2016-06-02 21:25:20.336] [ERROR] connection - Self connection disconnected
+[2016-06-02 21:25:26.734] [ERROR] connection - cloudServerClient disconnected
+[2016-06-02 21:25:26.883] [INFO] connection - Self connection established in  -6547
+[2016-06-02 21:25:26.904] [INFO] connection - authenticated self server
+[2016-06-02 21:25:37.299] [INFO] connection - cloudServerClient connected 
+[2016-06-02 21:25:38.429] [INFO] connection - cloudServerClient authenticated  true
+[2016-06-02 21:25:38.717] [DEBUG] connection - HouseIp :  { housePublicIP: '123.201.194.202' }
+[2016-06-02 21:25:38.753] [INFO] connection - Self connection established in  -1464882938753
+[2016-06-02 21:25:38.775] [INFO] connection - authenticated self server
+[2016-06-02 21:26:22.647] [ERROR] connection - Self connection disconnected
+[2016-06-02 21:26:22.917] [DEBUG] connection - HouseIp :  { housePublicIP: '123.201.194.202' }
+[2016-06-02 21:26:35.771] [ERROR] connection - Self connection disconnected
+[2016-06-02 21:26:36.040] [DEBUG] connection - HouseIp :  { housePublicIP: '123.201.194.202' }
+[2016-06-02 21:29:20.905] [ERROR] connection - cloudServerClient disconnected
+[2016-06-02 21:33:04.235] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 21:33:18.773] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 21:33:35.777] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 21:33:52.781] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 21:34:09.785] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 21:34:18.284] [INFO] connection - cloudServerClient connected 
+[2016-06-02 21:34:19.403] [INFO] connection - cloudServerClient authenticated  true
+[2016-06-02 21:34:19.673] [DEBUG] connection - HouseIp :  { housePublicIP: '123.201.194.202' }
+[2016-06-02 21:36:28.851] [INFO] connection - cloudServerClient connected 
+[2016-06-02 21:36:30.743] [INFO] connection - cloudServerClient authenticated  true
+[2016-06-02 21:36:31.044] [DEBUG] connection - HouseIp :  { housePublicIP: '123.201.194.202' }
+[2016-06-02 21:37:11.913] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:37:34.900] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:37:57.643] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:38:22.643] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:38:47.646] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:39:12.647] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:39:37.650] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:40:02.653] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:40:27.654] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:40:52.656] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:41:17.658] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:41:42.660] [ERROR] connection - Self connection reconnect_error

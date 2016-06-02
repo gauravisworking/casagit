@@ -12,15 +12,13 @@ agenda = null;
 ws = null;
 io = null;
 staticServer = null;
-ioClient = null;
+cloudServerClient = null;
 
 staticClient = null;
 ipUpdater = null;
 housePublicIP = null;
 webSocketObj = null;
 selfConnection = null;
-
-// 
 
 config = {
 	staticMasterIp : '123.201.194.202',
@@ -31,8 +29,6 @@ config = {
 	projectDbUrl : "mongodb://localhost:27017/myproject",
 	agendaDbUrl : "mongodb://localhost:27017/agenda",
 };
-
-
 
 /*
  * var replace = require("replace");
@@ -49,8 +45,8 @@ loggerUtils.startLogging();
 var gcmUtils = require('./gcmUtils');
 gcmUtils.startGCM();
 
-var ipUpdater = require('./ipUtils');
-ipUpdater.startIPUpdater();
+var cloudUtils = require('./cloudUtils');
+cloudUtils.startCloudConnections();
 
 var localServerUtils = require('./localServer');
 localServerUtils.initLocalServer();

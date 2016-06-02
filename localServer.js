@@ -16,11 +16,10 @@ module.exports = {
 		//io.set('transports', ['websocket']);
 		require('socketio-auth')(io, {
 			authenticate : function (socket, data, callback) {
-				console.log('authenticate in progress');
 				var username = data.username;
 				var password = data.password;
-				console.log('Authenticated....');
 				if (username == password) {
+					local_server_logger.error(" Authentication error in socketio-auth");
 					return callback(new Error("User not  found"));
 				} else {
 					return callback(null, true);
@@ -28,7 +27,7 @@ module.exports = {
 			},
 			postAuthenticate : function (socket, data) {
 				socket.houseId = data.houseId;
-				console.log('User joined room : ', data);
+				local_server_logger.info('User joined room : ', data);
 				socket.join(socket.houseId);
 				socket.broadcast.to(socket.houseId).emit('newUserJoined', data.name);
 				var newPacket = {
@@ -43,18 +42,17 @@ module.exports = {
 		});
 		
 		io.use(function (socket, next) {
-			console.log("Query: ", socket.handshake.query);
 			if (socket.handshake.query.foo == "bar") {
 				return next();
 			}
-			// call next() with an Error if you need to reject the connection.
+			local_server_logger.error(" Authentication error in query");
 			next(new Error('Authentication error'));
 		});
 		
 		io.sockets.on('connection', function (socket) {
 			
 			socket.on('registrationID', function (data) {
-				console.log("Device Registration : ", data.registrationId);
+				local_server_logger.debug("Device Registration : ", data.registrationId);
 				regId = data.registrationId;
 				gcmmessage.addData('key1', 'msg1');
 				var regTokens = [regId];
@@ -78,7 +76,7 @@ module.exports = {
 						pubSubServer.publish(newPacket, function () {});
 					}
 				} catch (e) {
-					console.log('Error in parsing : ', data);
+					local_server_logger.error('Error in parsing : ', data);
 					
 				}
 				
@@ -88,7 +86,7 @@ module.exports = {
 					jobId : obj.jobId
 				}
 				callback(ackObj);
-				console.log("Form house : " + socket.houseId, obj);
+				local_server_logger.debug("Form house : " + socket.houseId, obj);
 			});
 			
 		});
