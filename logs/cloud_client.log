@@ -1,0 +1,300 @@
+[2016-06-02 20:07:24.918] [INFO] connection - Cheese is Gouda.
+[2016-06-02 20:07:24.920] [FATAL] connection - Cheese was breeding ground for listeria.
+[2016-06-02 20:08:13.174] [INFO] connection - Cheese is Gouda.
+[2016-06-02 20:08:13.176] [FATAL] connection - Cheese was breeding ground for listeria.
+[2016-06-02 20:08:55.013] [INFO] connection - 	Cheese is Gouda.
+[2016-06-02 20:08:55.014] [FATAL] connection - 	Cheese was breeding ground for listeria.
+[2016-06-02 20:11:52.487] [INFO] connection - 	Cheese is Gouda.
+[2016-06-02 20:11:52.498] [FATAL] connection - 	Cheese was breeding ground for listeria.
+[2016-06-02 20:19:24.374] [INFO] connection - 	Cheese is Gouda.
+[2016-06-02 20:19:24.386] [FATAL] connection - 	Cheese was breeding ground for listeria.
+[2016-06-02 21:04:50.460] [INFO] connection - cloudServerClient connected 
+[2016-06-02 21:04:51.611] [INFO] connection - cloudServerClient authenticated  true
+[2016-06-02 21:04:51.889] [DEBUG] connection - HouseIp :  { housePublicIP: '123.201.194.202' }
+[2016-06-02 21:08:20.709] [ERROR] connection - cloudServerClient disconnected
+[2016-06-02 21:08:21.487] [INFO] connection - cloudServerClient reconnect_attempt 
+[2016-06-02 21:08:21.488] [INFO] connection - cloudServerClient reconnecting
+[2016-06-02 21:08:22.626] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 21:08:23.763] [INFO] connection - cloudServerClient reconnect_attempt 
+[2016-06-02 21:08:23.764] [INFO] connection - cloudServerClient reconnecting
+[2016-06-02 21:08:25.304] [INFO] connection - cloudServerClient reconnect :  2
+[2016-06-02 21:08:26.473] [INFO] connection - cloudServerClient connected 
+[2016-06-02 21:08:28.320] [INFO] connection - cloudServerClient authenticated  true
+[2016-06-02 21:08:28.705] [DEBUG] connection - HouseIp :  { housePublicIP: '123.201.194.202' }
+[2016-06-02 21:11:44.031] [INFO] connection - cloudServerClient connected 
+[2016-06-02 21:11:45.310] [INFO] connection - cloudServerClient authenticated  true
+[2016-06-02 21:11:45.900] [DEBUG] connection - HouseIp :  { housePublicIP: '123.201.194.202' }
+[2016-06-02 21:12:21.800] [ERROR] connection - cloudServerClient disconnected
+[2016-06-02 21:12:29.131] [INFO] connection - cloudServerClient connected 
+[2016-06-02 21:12:30.289] [INFO] connection - cloudServerClient authenticated  true
+[2016-06-02 21:12:30.550] [DEBUG] connection - HouseIp :  { housePublicIP: '123.201.194.202' }
+[2016-06-02 21:19:10.430] [INFO] connection - cloudServerClient connected 
+[2016-06-02 21:19:11.586] [INFO] connection - cloudServerClient authenticated  true
+[2016-06-02 21:19:11.866] [DEBUG] connection - HouseIp :  { housePublicIP: '123.201.194.202' }
+[2016-06-02 21:24:34.940] [INFO] connection - cloudServerClient connected 
+[2016-06-02 21:24:36.103] [INFO] connection - cloudServerClient authenticated  true
+[2016-06-02 21:24:36.396] [DEBUG] connection - HouseIp :  { housePublicIP: '123.201.194.202' }
+[2016-06-02 21:24:36.455] [INFO] connection - Self connection established in  -1464882876454
+[2016-06-02 21:24:36.484] [INFO] connection - authenticated self server
+[2016-06-02 21:25:20.336] [ERROR] connection - Self connection disconnected
+[2016-06-02 21:25:26.734] [ERROR] connection - cloudServerClient disconnected
+[2016-06-02 21:25:26.883] [INFO] connection - Self connection established in  -6547
+[2016-06-02 21:25:26.904] [INFO] connection - authenticated self server
+[2016-06-02 21:25:37.299] [INFO] connection - cloudServerClient connected 
+[2016-06-02 21:25:38.429] [INFO] connection - cloudServerClient authenticated  true
+[2016-06-02 21:25:38.717] [DEBUG] connection - HouseIp :  { housePublicIP: '123.201.194.202' }
+[2016-06-02 21:25:38.753] [INFO] connection - Self connection established in  -1464882938753
+[2016-06-02 21:25:38.775] [INFO] connection - authenticated self server
+[2016-06-02 21:26:22.647] [ERROR] connection - Self connection disconnected
+[2016-06-02 21:26:22.917] [DEBUG] connection - HouseIp :  { housePublicIP: '123.201.194.202' }
+[2016-06-02 21:26:35.771] [ERROR] connection - Self connection disconnected
+[2016-06-02 21:26:36.040] [DEBUG] connection - HouseIp :  { housePublicIP: '123.201.194.202' }
+[2016-06-02 21:29:20.905] [ERROR] connection - cloudServerClient disconnected
+[2016-06-02 21:33:04.235] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 21:33:18.773] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 21:33:35.777] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 21:33:52.781] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 21:34:09.785] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 21:34:18.284] [INFO] connection - cloudServerClient connected 
+[2016-06-02 21:34:19.403] [INFO] connection - cloudServerClient authenticated  true
+[2016-06-02 21:34:19.673] [DEBUG] connection - HouseIp :  { housePublicIP: '123.201.194.202' }
+[2016-06-02 21:36:28.851] [INFO] connection - cloudServerClient connected 
+[2016-06-02 21:36:30.743] [INFO] connection - cloudServerClient authenticated  true
+[2016-06-02 21:36:31.044] [DEBUG] connection - HouseIp :  { housePublicIP: '123.201.194.202' }
+[2016-06-02 21:37:11.913] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:37:34.900] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:37:57.643] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:38:22.643] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:38:47.646] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:39:12.647] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:39:37.650] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:40:02.653] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:40:27.654] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:40:52.656] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:41:17.658] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:41:42.660] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:42:07.661] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:42:32.663] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:42:57.666] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:43:22.668] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:43:47.669] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:44:12.672] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:44:37.673] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:45:02.675] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:45:27.677] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:45:52.679] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:46:17.679] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:46:42.681] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:47:07.683] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:47:32.684] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:47:57.686] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:48:22.690] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:48:47.691] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:49:12.692] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:49:37.695] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:50:02.698] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:50:27.701] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:50:52.702] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:51:17.705] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:51:42.706] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:52:07.707] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:52:32.710] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:52:50.828] [INFO] connection - cloudServerClient connected 
+[2016-06-02 21:52:51.205] [INFO] connection - cloudServerClient authenticated  true
+[2016-06-02 21:52:51.602] [DEBUG] connection - HouseIp :  { housePublicIP: '123.201.194.202' }
+[2016-06-02 21:52:53.011] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:52:54.715] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:52:59.718] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:53:04.722] [ERROR] connection - Self connection reconnect_error
+[2016-06-02 21:53:14.441] [INFO] connection - cloudServerClient connected 
+[2016-06-02 21:53:15.636] [INFO] connection - cloudServerClient authenticated  true
+[2016-06-02 21:53:15.905] [DEBUG] connection - HouseIp :  { housePublicIP: '123.201.194.202' }
+[2016-06-02 21:53:15.953] [INFO] connection - Self connection established in 1464884595.953sec
+[2016-06-02 21:53:15.977] [INFO] connection - authenticated self server
+[2016-06-02 21:53:59.644] [INFO] connection - cloudServerClient connected 
+[2016-06-02 21:54:00.802] [INFO] connection - cloudServerClient authenticated  true
+[2016-06-02 21:54:01.131] [DEBUG] connection - HouseIp :  { housePublicIP: '123.201.194.202' }
+[2016-06-02 21:54:01.179] [INFO] connection - Self connection established in 1464884641.179sec
+[2016-06-02 21:54:01.205] [INFO] connection - authenticated self server :  { games: 'test' }
+[2016-06-02 21:56:30.734] [ERROR] connection - cloudServerClient disconnected
+[2016-06-02 21:56:32.036] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 21:56:33.415] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 21:56:43.575] [INFO] connection - cloudServerClient connected 
+[2016-06-02 21:56:43.872] [INFO] connection - cloudServerClient authenticated  true
+[2016-06-02 21:56:44.158] [DEBUG] connection - HouseIp :  { housePublicIP: '123.201.194.202' }
+[2016-06-02 21:56:44.183] [INFO] connection - Self connection established in 1464884804.183sec
+[2016-06-02 21:56:44.199] [INFO] connection - authenticated self server :  { games: 'test' }
+[2016-06-02 22:14:39.895] [ERROR] connection - cloudServerClient disconnected
+[2016-06-02 22:14:41.912] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:14:45.170] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:14:50.244] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:14:56.389] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:15:02.489] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:15:09.971] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:15:16.047] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:15:22.155] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:15:28.392] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:15:34.440] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:15:40.564] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:15:46.640] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:15:52.707] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:15:58.800] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:16:04.890] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:16:11.001] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:16:17.103] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:16:23.144] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:16:29.322] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:16:35.444] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:16:41.607] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:16:47.677] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:16:55.020] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:17:01.064] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:17:07.166] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:17:13.293] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:17:20.433] [INFO] connection - cloudServerClient connected 
+[2016-06-02 22:17:21.494] [INFO] connection - cloudServerClient authenticated  { games: 'test' }
+[2016-06-02 22:17:22.628] [DEBUG] connection - HouseIp :  { housePublicIP: '123.201.194.202' }
+[2016-06-02 22:17:22.654] [INFO] connection - Self connection established in 1464886042.654sec
+[2016-06-02 22:17:22.670] [INFO] connection - authenticated self server :  { games: 'test' }
+[2016-06-02 22:21:46.464] [ERROR] connection - cloudServerClient disconnected
+[2016-06-02 22:21:48.811] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:21:51.602] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:21:59.170] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:22:05.215] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:22:11.285] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:22:18.414] [INFO] connection - cloudServerClient connected 
+[2016-06-02 22:22:19.756] [INFO] connection - cloudServerClient authenticated  { games: 'test' }
+[2016-06-02 22:22:20.028] [DEBUG] connection - HouseIp :  { housePublicIP: '123.201.194.202' }
+[2016-06-02 22:22:20.041] [INFO] connection - Self connection established in 1464886340.041sec
+[2016-06-02 22:22:20.053] [INFO] connection - authenticated self server :  { games: 'test' }
+[2016-06-02 22:36:50.241] [ERROR] connection - cloudServerClient disconnected
+[2016-06-02 22:36:53.299] [INFO] connection - cloudServerClient connected 
+[2016-06-02 22:36:54.447] [INFO] connection - cloudServerClient authenticated  { games: 'test' }
+[2016-06-02 22:36:54.734] [DEBUG] connection - HouseIp :  { housePublicIP: '123.201.194.202' }
+[2016-06-02 22:36:54.747] [INFO] connection - Self connection established in 1464887214.747sec
+[2016-06-02 22:36:54.761] [INFO] connection - authenticated self server :  { games: 'test' }
+[2016-06-02 22:38:48.077] [ERROR] connection - cloudServerClient disconnected
+[2016-06-02 22:38:51.618] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:38:55.706] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:38:59.563] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:39:05.697] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:39:11.813] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:39:20.576] [INFO] connection - cloudServerClient connected 
+[2016-06-02 22:39:21.869] [INFO] connection - cloudServerClient authenticated  { games: 'test' }
+[2016-06-02 22:39:22.183] [DEBUG] connection - HouseIp :  { housePublicIP: '123.201.194.202' }
+[2016-06-02 22:39:22.197] [INFO] connection - Self connection established in 1464887362.197sec
+[2016-06-02 22:39:22.213] [INFO] connection - authenticated self server :  { games: 'test' }
+[2016-06-02 22:41:16.684] [INFO] connection - cloudServerClient connected 
+[2016-06-02 22:41:17.988] [INFO] connection - cloudServerClient authenticated  { games: 'test' }
+[2016-06-02 22:41:20.072] [DEBUG] connection - HouseIp :  { housePublicIP: '123.201.194.202' }
+[2016-06-02 22:41:20.127] [INFO] connection - Self connection established in 1464887480.126sec
+[2016-06-02 22:41:20.155] [INFO] connection - authenticated self server :  { games: 'test' }
+[2016-06-02 22:43:24.556] [ERROR] connection - cloudServerClient disconnected
+[2016-06-02 22:43:33.021] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:43:37.043] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:43:42.481] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:43:48.590] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:43:54.681] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:44:01.941] [INFO] connection - cloudServerClient connected 
+[2016-06-02 22:44:05.890] [INFO] connection - cloudServerClient authenticated  { games: 'test' }
+[2016-06-02 22:44:06.177] [DEBUG] connection - HouseIp :  { housePublicIP: '123.201.194.202' }
+[2016-06-02 22:44:06.196] [INFO] connection - Self connection established in 1464887646.196sec
+[2016-06-02 22:44:06.216] [INFO] connection - authenticated self server :  { games: 'test' }
+[2016-06-02 22:44:31.302] [INFO] connection - cloudServerClient connected 
+[2016-06-02 22:44:32.540] [INFO] connection - cloudServerClient authenticated  { games: 'test' }
+[2016-06-02 22:44:32.866] [DEBUG] connection - HouseIp :  { housePublicIP: '123.201.194.202' }
+[2016-06-02 22:44:32.918] [INFO] connection - Self connection established in 1464887672.917sec
+[2016-06-02 22:44:32.945] [INFO] connection - authenticated self server :  { games: 'test' }
+[2016-06-02 22:46:36.052] [INFO] connection - cloudServerClient connected 
+[2016-06-02 22:46:37.520] [INFO] connection - cloudServerClient authenticated  { games: 'test' }
+[2016-06-02 22:46:37.812] [DEBUG] connection - HouseIp :  { housePublicIP: '123.201.194.202' }
+[2016-06-02 22:46:37.861] [INFO] connection - Self connection established in 1464887797.861sec
+[2016-06-02 22:46:37.888] [INFO] connection - authenticated self server :  { games: 'test' }
+[2016-06-02 22:47:33.051] [ERROR] connection - cloudServerClient disconnected
+[2016-06-02 22:47:36.067] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:47:40.406] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:47:46.555] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:47:53.834] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:48:14.643] [INFO] connection - cloudServerClient connected 
+[2016-06-02 22:48:16.705] [INFO] connection - cloudServerClient authenticated  { games: 'test' }
+[2016-06-02 22:48:17.989] [DEBUG] connection - HouseIp :  { housePublicIP: '123.201.194.202' }
+[2016-06-02 22:48:18.008] [INFO] connection - Self connection established in 1464887898.008sec
+[2016-06-02 22:48:18.025] [INFO] connection - authenticated self server :  { games: 'test' }
+[2016-06-02 22:54:44.097] [ERROR] connection - cloudServerClient disconnected
+[2016-06-02 22:54:46.567] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:54:48.931] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:54:53.186] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:55:00.720] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:55:07.469] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:55:15.102] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:55:22.902] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:55:30.564] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:55:38.658] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:55:47.125] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:55:53.289] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:55:59.805] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:56:05.954] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:56:12.096] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:56:18.329] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:56:24.511] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 22:56:31.978] [INFO] connection - cloudServerClient connected 
+[2016-06-02 22:56:33.132] [INFO] connection - cloudServerClient authenticated  { games: 'test' }
+[2016-06-02 22:56:36.124] [DEBUG] connection - HouseIp :  { housePublicIP: '123.201.194.202' }
+[2016-06-02 22:56:36.138] [INFO] connection - Self connection established in 1464888396.138sec
+[2016-06-02 22:56:36.156] [INFO] connection - authenticated self server :  { games: 'test' }
+[2016-06-02 23:00:54.073] [INFO] connection - cloudServerClient connected 
+[2016-06-02 23:00:55.473] [INFO] connection - cloudServerClient authenticated  { games: 'test' }
+[2016-06-02 23:00:55.782] [INFO] connection - New user is online :  vatsalya
+[2016-06-02 23:00:55.783] [DEBUG] connection - HouseIp :  { housePublicIP: '123.201.194.202' }
+[2016-06-02 23:00:55.835] [INFO] connection - Self connection established in 1464888655.834sec
+[2016-06-02 23:00:55.856] [INFO] connection - authenticated self server :  { games: 'test' }
+[2016-06-02 23:01:04.708] [INFO] connection - form other deviec { houseId: 'house_1', event: 'recieve', jobId: 1234 }
+[2016-06-02 23:01:04.710] [ERROR] connection - Error in parsing :  { houseId: 'house_1', event: 'recieve', jobId: 1234 }
+[2016-06-02 23:01:05.494] [INFO] connection - New user is online :  oneBeast
+[2016-06-02 23:03:03.539] [INFO] connection - cloudServerClient connected 
+[2016-06-02 23:03:04.881] [INFO] connection - cloudServerClient authenticated  { games: 'test' }
+[2016-06-02 23:03:04.883] [INFO] connection - New user is online :  vatsalya
+[2016-06-02 23:03:05.214] [DEBUG] connection - HouseIp :  { housePublicIP: '123.201.194.202' }
+[2016-06-02 23:03:05.264] [INFO] connection - Self connection established in 1464888785.264sec
+[2016-06-02 23:03:05.286] [INFO] connection - authenticated self server :  { games: 'test' }
+[2016-06-02 23:03:06.404] [INFO] connection - New user is online :  vatsalya
+[2016-06-02 23:03:18.076] [INFO] connection - form other deviec { houseId: 'house_1', event: 'recieve', jobId: 1234 }
+[2016-06-02 23:03:18.957] [INFO] connection - New user is online :  oneBeast
+[2016-06-02 23:21:26.506] [ERROR] connection - cloudServerClient disconnected
+[2016-06-02 23:21:28.327] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 23:21:31.309] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 23:21:34.797] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 23:21:41.079] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 23:21:47.323] [ERROR] connection - cloudServerClient reconnect_error
+[2016-06-02 23:21:56.243] [INFO] connection - cloudServerClient connected 
+[2016-06-02 23:21:56.551] [INFO] connection - cloudServerClient authenticated  { games: 'test' }
+[2016-06-02 23:21:56.555] [INFO] connection - New user is online :  vatsalya
+[2016-06-02 23:21:56.832] [DEBUG] connection - HouseIp :  { housePublicIP: '123.201.194.202' }
+[2016-06-02 23:21:56.851] [INFO] connection - Self connection established in 1464889916.851sec
+[2016-06-02 23:21:56.867] [INFO] connection - authenticated self server :  { games: 'test' }
+[2016-06-02 23:22:46.243] [INFO] connection - form other deviec { houseId: 'house_1', event: 'recieve', jobId: 1234 }
+[2016-06-02 23:22:47.702] [INFO] connection - New user is online :  oneBeast
+[2016-06-02 23:23:30.506] [INFO] connection - cloudServerClient connected 
+[2016-06-02 23:23:31.818] [INFO] connection - cloudServerClient authenticated  { games: 'test' }
+[2016-06-02 23:23:32.130] [INFO] connection - New user is online :  vatsalya
+[2016-06-02 23:23:32.133] [DEBUG] connection - HouseIp :  { housePublicIP: '123.201.194.202' }
+[2016-06-02 23:23:32.183] [INFO] connection - Self connection established in 1464890012.183sec
+[2016-06-02 23:23:32.208] [INFO] connection - authenticated self server :  { games: 'test' }
+[2016-06-02 23:23:54.155] [INFO] connection - form other deviec { houseId: 'house_1', event: 'recieve', jobId: 1234 }
+[2016-06-02 23:23:55.075] [INFO] connection - New user is online :  oneBeast
+[2016-06-02 23:24:04.298] [INFO] connection - form other deviec { houseId: 'house_1', event: 'recieve', jobId: 1234 }
+[2016-06-02 23:24:05.142] [INFO] connection - New user is online :  oneBeast
+[2016-06-02 23:24:15.748] [INFO] connection - form other deviec { houseId: 'house_1', event: 'recieve', jobId: 1234 }
+[2016-06-02 23:24:16.604] [INFO] connection - New user is online :  oneBeast
+[2016-06-02 23:26:04.242] [INFO] connection - cloudServerClient connected 
+[2016-06-02 23:26:05.420] [INFO] connection - cloudServerClient authenticated  { games: 'test' }
+[2016-06-02 23:26:05.423] [INFO] connection - New user is online :  vatsalya
+[2016-06-02 23:26:05.715] [DEBUG] connection - HouseIp :  { housePublicIP: '123.201.194.202' }
+[2016-06-02 23:26:05.764] [INFO] connection - Self connection established in 1464890165.764sec
+[2016-06-02 23:26:05.788] [INFO] connection - authenticated self server :  { games: 'test' }
+[2016-06-02 23:27:57.922] [INFO] cloud_client - cloudServerClient connected 
+[2016-06-02 23:27:59.135] [INFO] cloud_client - cloudServerClient authenticated  { games: 'test' }
+[2016-06-02 23:27:59.138] [INFO] cloud_client - New user is online :  vatsalya
+[2016-06-02 23:27:59.427] [DEBUG] cloud_client - HouseIp :  { housePublicIP: '123.201.194.202' }
+[2016-06-02 23:27:59.477] [INFO] cloud_client - Self connection established in 1464890279.477sec
+[2016-06-02 23:27:59.500] [INFO] cloud_client - authenticated self server :  { games: 'test' }

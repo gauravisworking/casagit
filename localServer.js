@@ -22,12 +22,12 @@ module.exports = {
 					local_server_logger.error(" Authentication error in socketio-auth");
 					return callback(new Error("User not  found"));
 				} else {
-					return callback(null, true);
+					return callback(null, {games : 'test'});
 				}
 			},
 			postAuthenticate : function (socket, data) {
 				socket.houseId = data.houseId;
-				local_server_logger.info('User joined room : ', data);
+				local_server_logger.info('User joined room : ', data.username);
 				socket.join(socket.houseId);
 				socket.broadcast.to(socket.houseId).emit('newUserJoined', data.name);
 				var newPacket = {

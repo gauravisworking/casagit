@@ -5,15 +5,15 @@ module.exports = {
 		log4js.loadAppender('file');
 		log4js.addAppender(log4js.appenders.file('logs/mosca.log'), 'mosca');
 		log4js.addAppender(log4js.appenders.file('logs/local_server.log'), 'local_server');
-		log4js.addAppender(log4js.appenders.file('logs/connection.log'), 'connection');
+		log4js.addAppender(log4js.appenders.file('logs/cloud_client.log'), 'cloud_client');
 
 		mosca_logger = log4js.getLogger('mosca');
 		local_server_logger = log4js.getLogger('local_server');
-		connection_logger = log4js.getLogger('connection');
+		cloud_client_logger = log4js.getLogger('cloud_client');
 		
 		mosca_logger.setLevel('TRACE');
 		local_server_logger.setLevel('TRACE');
-		connection_logger.setLevel('TRACE');
+		cloud_client_logger.setLevel('TRACE');
 		
 		/*
 		logger.trace('Entering cheese testing');

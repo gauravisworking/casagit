@@ -8,3 +8,118 @@
 [2016-06-02 21:30:32.866] [INFO] local_server - Express server started
 [2016-06-02 21:32:40.602] [INFO] local_server - Express server started
 [2016-06-02 21:36:26.507] [INFO] local_server - Express server started
+[2016-06-02 21:52:46.337] [INFO] local_server - Express server started
+[2016-06-02 21:53:12.151] [INFO] local_server - Express server started
+[2016-06-02 21:53:15.970] [INFO] local_server - User joined room :  { username: 'thisHome',
+  password: 'isConnected',
+  isUser: false,
+  isHome: true,
+  name: 'vatsalya',
+  houseId: 'house_1' }
+[2016-06-02 21:53:57.249] [INFO] local_server - Express server started
+[2016-06-02 21:54:01.198] [INFO] local_server - User joined room :  { username: 'thisHome',
+  password: 'isConnected',
+  isUser: false,
+  isHome: true,
+  name: 'vatsalya',
+  houseId: 'house_1' }
+[2016-06-02 21:56:44.190] [INFO] local_server - User joined room :  { username: 'thisHome',
+  password: 'isConnected',
+  isUser: false,
+  isHome: true,
+  name: 'vatsalya',
+  houseId: 'house_1' }
+[2016-06-02 22:17:22.662] [INFO] local_server - User joined room :  { username: 'thisHome',
+  password: 'isConnected',
+  isUser: false,
+  isHome: true,
+  name: 'vatsalya',
+  houseId: 'house_1' }
+[2016-06-02 22:22:20.047] [INFO] local_server - User joined room :  { username: 'thisHome',
+  password: 'isConnected',
+  isUser: false,
+  isHome: true,
+  name: 'vatsalya',
+  houseId: 'house_1' }
+[2016-06-02 22:36:54.755] [INFO] local_server - User joined room :  { username: 'thisHome',
+  password: 'isConnected',
+  isUser: false,
+  isHome: true,
+  name: 'vatsalya',
+  houseId: 'house_1' }
+[2016-06-02 22:39:22.206] [INFO] local_server - User joined room :  { username: 'thisHome',
+  password: 'isConnected',
+  isUser: false,
+  isHome: true,
+  name: 'vatsalya',
+  houseId: 'house_1' }
+[2016-06-02 22:41:14.365] [INFO] local_server - Express server started
+[2016-06-02 22:41:20.148] [INFO] local_server - User joined room :  { username: 'thisHome',
+  password: 'isConnected',
+  isUser: false,
+  isHome: true,
+  name: 'vatsalya',
+  houseId: 'house_1' }
+[2016-06-02 22:44:06.205] [INFO] local_server - User joined room :  { username: 'thisHome',
+  password: 'isConnected',
+  isUser: false,
+  isHome: true,
+  name: 'vatsalya',
+  houseId: 'house_1' }
+[2016-06-02 22:44:28.905] [INFO] local_server - Express server started
+[2016-06-02 22:44:32.937] [INFO] local_server - User joined room :  { username: 'thisHome',
+  password: 'isConnected',
+  isUser: false,
+  isHome: true,
+  name: 'vatsalya',
+  houseId: 'house_1' }
+[2016-06-02 22:46:33.543] [INFO] local_server - Express server started
+[2016-06-02 22:46:37.881] [INFO] local_server - User joined room :  { username: 'thisHome',
+  password: 'isConnected',
+  isUser: false,
+  isHome: true,
+  name: 'vatsalya',
+  houseId: 'house_1' }
+[2016-06-02 22:48:18.016] [INFO] local_server - User joined room :  { username: 'thisHome',
+  password: 'isConnected',
+  isUser: false,
+  isHome: true,
+  name: 'vatsalya',
+  houseId: 'house_1' }
+[2016-06-02 22:56:36.147] [INFO] local_server - User joined room :  { username: 'thisHome',
+  password: 'isConnected',
+  isUser: false,
+  isHome: true,
+  name: 'vatsalya',
+  houseId: 'house_1' }
+[2016-06-02 23:00:51.433] [INFO] local_server - Express server started
+[2016-06-02 23:00:55.850] [INFO] local_server - User joined room :  { username: 'thisHome',
+  password: 'isConnected',
+  isUser: false,
+  isHome: true,
+  name: 'vatsalya',
+  houseId: 'house_1' }
+[2016-06-02 23:03:00.967] [INFO] local_server - Express server started
+[2016-06-02 23:03:05.281] [INFO] local_server - User joined room :  { username: 'thisHome',
+  password: 'isConnected',
+  isUser: false,
+  isHome: true,
+  name: 'vatsalya',
+  houseId: 'house_1' }
+[2016-06-02 23:21:56.858] [INFO] local_server - User joined room :  { username: 'thisHome',
+  password: 'isConnected',
+  isUser: false,
+  isHome: true,
+  name: 'vatsalya',
+  houseId: 'house_1' }
+[2016-06-02 23:23:27.940] [INFO] local_server - Express server started
+[2016-06-02 23:23:32.202] [INFO] local_server - User joined room :  { username: 'thisHome',
+  password: 'isConnected',
+  isUser: false,
+  isHome: true,
+  name: 'vatsalya',
+  houseId: 'house_1' }
+[2016-06-02 23:26:01.783] [INFO] local_server - Express server started
+[2016-06-02 23:26:05.782] [INFO] local_server - User joined room :  thisHome
+[2016-06-02 23:27:55.610] [INFO] local_server - Express server started
+[2016-06-02 23:27:59.495] [INFO] local_server - User joined room :  thisHome
