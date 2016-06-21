@@ -10,6 +10,11 @@ module.exports = {
 		app.set('port', osport);
 		app.set('ipaddress', osipaddress);
 		
+		app.get('/file.bin', function(req, res) {
+			local_server_logger.info('Requested for file.bin ',req.query);
+		  res.sendFile('/home/pi/workspace/casa/arduino/httpUpdate-eap.cpp.bin')
+		})
+		
 		var server = http.createServer(app);
 		io = require('socket.io').listen(server);
 		

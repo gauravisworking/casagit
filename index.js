@@ -19,7 +19,7 @@ ipUpdater = null;
 housePublicIP = null;
 webSocketObj = null;
 selfConnection = null;
-
+gcmmessage = null;
 config = {
 	staticMasterIp : '123.201.194.202',
 	staticMasterPort : 5001,
@@ -39,6 +39,8 @@ config = {
  * 
  */
 
+
+
 var loggerUtils = require('./loggerUtils');
 loggerUtils.startLogging();
 
@@ -53,6 +55,16 @@ localServerUtils.initLocalServer();
 
 var moscaServerUtils = require('./moscaServer');
 moscaServerUtils.initMoscaServer();
+
+ 
+var iwlist = require('wireless-tools/iwlist');
+ 
+iwlist.scan('wlan0', function(err, networks) {
+  console.log(networks);
+});
+ 
+
+
 
 /*
  * // -------------------------------------------------------- Mongo DB
