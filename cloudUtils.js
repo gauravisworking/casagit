@@ -69,22 +69,22 @@ module.exports = {
 
 			var lastTime = null;
 			selfConnection.on('connect', function() {
-				cloud_client_logger.info('Self connection established in '+(new Date().getTime() - lastTime)/1000+"sec");
+				cloud_client_logger.info('Self connection - established in '+(new Date().getTime() - lastTime)/1000+"sec");
 				selfConnection.emit('authentication', authenticationObj);
 			});
 
 			selfConnection.on('authenticated', function(data) {
-				cloud_client_logger.info('authenticated self server : ',data);
+				cloud_client_logger.info('Self connection - authenticated : ',data);
 			});
 
 			selfConnection.on('disconnect', function() {
 				lastTime = new Date().getTime();
-				cloud_client_logger.error('Self connection disconnected');
+				cloud_client_logger.error('Self connection - disconnected');
 				cloudServerClient.emit('registerIP', null);
 			});
 			
 			selfConnection.on('reconnect_error', function(e) {
-				cloud_client_logger.error('Self connection reconnect_error');
+				cloud_client_logger.error('Self connection - reconnect_error');
 			});
 			
 
