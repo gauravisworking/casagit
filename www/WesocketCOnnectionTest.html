@@ -14,7 +14,7 @@ var data = null;
 function myTimer() {
     
 	console.log("Testing "+i);
-	clientArray[i] = io.connect('ws://123.201.194.202:8888', {
+	clientArray[i] = io.connect('wss://websocket-hometesting.rhcloud.com:8443', {
 		query : "foo=bar"
 	});
 	options.height =options.height+30;
