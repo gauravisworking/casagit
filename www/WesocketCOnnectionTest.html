@@ -1,0 +1,125 @@
+<html>
+<head>
+	<script type="text/javascript" src="socket.io.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+
+var i =0 ;
+
+
+var clientArray = [];
+
+var myVar = null;
+var data = null;
+function myTimer() {
+    
+	console.log("Testing "+i);
+	clientArray[i] = io.connect('ws://123.201.194.202:8888', {
+		query : "foo=bar"
+	});
+	options.height =options.height+30;
+	data.addRow(['Client-'+i, 0,0,0,0]);
+	chart.draw(data,options);
+	clientArray[i].startTime = new Date();
+	clientArray[i].number = i;
+		clientArray[i].on('connect', function() {
+			
+			var authenticationObj = {
+					username : 'Gaurav',
+					password : 'Solanke',
+					isUser : false,
+					isHome : true,
+					name : 'vatsalya',
+					houseId : 'house_1'
+				};
+			data.setValue(this.number, 1, ((new Date() - this.startTime)/1000));
+			chart.draw(data,options);
+			console.log(this.number+' connected in '+((new Date() - this.startTime)/1000)+' sec');
+			this.emitedAuth = new Date();
+			this.emit('authentication', authenticationObj);
+			
+		});
+		
+		clientArray[i].on('authenticated', function(data1) {
+			data.setValue(this.number, 2, ((new Date() - this.startTime)/1000));
+			chart.draw(data,options);
+			setInterval(function(obj){ obj.emit('registerIP', null); }, 10000,this);
+			console.log(this.number+' authenticated in '+((new Date() - this.startTime)/1000)+' sec');
+		});
+
+		clientArray[i].on('disconnect', function() {
+		data.setValue(this.number, 3, ((new Date() - this.startTime)/1000));
+		chart.draw(data,options);
+			console.log('clientArray[i] disconnected'+this.number);
+		});
+
+		clientArray[i].on('error', function(e) {
+			console.log('clientArray[i] error : '+this.number, e);
+		});
+
+		clientArray[i].on('reconnect_error', function(e) {
+		data.setValue(this.number, 4, ((new Date() - this.startTime)/1000));
+		chart.draw(data,options);
+			console.log('clientArray[i] reconnect_error'+this.number);
+		});
+		
+		clientArray[i].on('reconnect', function(number) {
+			data.setValue(this.number, 1, ((new Date() - this.startTime)/1000));
+			chart.draw(data,options);
+		});
+
+		i++;
+		
+		if(i > 5)
+		{
+			myStopFunction();
+		}
+}
+
+function myStopFunction() {
+    clearInterval(myVar);
+}
+google.charts.load('current', {'packages':['table', 'map', 'corechart']});
+      
+google.charts.setOnLoadCallback(drawSort);
+var chart = null;
+var options = null;
+function drawSort() {
+ options = {
+      width: 2200,
+      height: 50,
+    };
+myVar = setInterval(function(){ myTimer() }, 100);
+  data = new google.visualization.DataTable();
+  data.addColumn('string', 'Name');
+  data.addColumn('number', 'Connection');
+  data.addColumn('number', 'Authentication');
+  data.addColumn('number', 'Disconnect');
+  data.addColumn('number', 'Reconnect Error');
+
+
+  var formatter = new google.visualization.NumberFormat();
+  formatter.format(data, 1); // Apply formatter to second column
+
+  var view = new google.visualization.DataView(data);
+  view.setColumns([0, 1,2,3]);
+
+  chart = new google.visualization.BarChart(document.getElementById('chart_sort_div'));
+  chart.draw(view,options);
+	drawChart();
+}
+
+function drawChart() {
+      chart.draw(data);
+    }
+
+
+  </script>
+
+</head>
+
+<body>
+<div id="chart_sort_div" sty></div>
+
+</body>
+</html>
