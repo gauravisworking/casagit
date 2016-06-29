@@ -2,6 +2,8 @@ require.cache = {};
 
 net = require('net');
 replaceall = require("replaceall");
+Pusher = null;
+pusherChannel = null;
 //var Agenda = require("agenda");
 clients = [];
 mosca = null;
@@ -50,12 +52,16 @@ gcmUtils.startGCM();
 var cloudUtils = require('./cloudUtils');
 cloudUtils.startCloudConnections();
 
+var pusherClient = require('./pusherClient');
+pusherClient.startPusherClient();
+
+
 var localServerUtils = require('./localServer');
 localServerUtils.initLocalServer();
 
 var moscaServerUtils = require('./moscaServer');
 moscaServerUtils.initMoscaServer();
-
+/*
  
 var iwlist = require('wireless-tools/iwlist');
  
@@ -63,7 +69,7 @@ iwlist.scan('wlan0', function(err, networks) {
   console.log(networks);
 });
  
-
+*/
 
 
 /*

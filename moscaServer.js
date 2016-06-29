@@ -47,7 +47,8 @@ module.exports = {
 				}
 				try {
 					io.sockets.emit('recieve', JSON.stringify(respObj));
-					cloudServerClient.emit('recieve_fromHouse', JSON.stringify(respObj));
+					pusherChannel.trigger('client-status-update', respObj);
+					//cloudServerClient.emit('recieve_fromHouse', JSON.stringify(respObj));
 
 					gcmmessage.addData('key1', JSON.stringify(respObj));
 

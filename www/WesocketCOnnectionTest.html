@@ -14,12 +14,12 @@ var data = null;
 function myTimer() {
     
 	console.log("Testing "+i);
-	clientArray[i] = io.connect('wss://websocket-hometesting.rhcloud.com:8443', {
+	clientArray[i] = io.connect('ws://localhost:8888', {
 		query : "foo=bar"
 	});
-	options.height =options.height+30;
-	data.addRow(['Client-'+i, 0,0,0,0]);
-	chart.draw(data,options);
+	//options.height =options.height+30;
+	//data.addRow(['Client-'+i, 0,0,0,0]);
+	//chart.draw(data,options);
 	clientArray[i].startTime = new Date();
 	clientArray[i].number = i;
 		clientArray[i].on('connect', function() {
@@ -32,8 +32,8 @@ function myTimer() {
 					name : 'vatsalya',
 					houseId : 'house_1'
 				};
-			data.setValue(this.number, 1, ((new Date() - this.startTime)/1000));
-			chart.draw(data,options);
+			//data.setValue(this.number, 1, ((new Date() - this.startTime)/1000));
+			//chart.draw(data,options);
 			console.log(this.number+' connected in '+((new Date() - this.startTime)/1000)+' sec');
 			this.emitedAuth = new Date();
 			this.emit('authentication', authenticationObj);
@@ -41,15 +41,15 @@ function myTimer() {
 		});
 		
 		clientArray[i].on('authenticated', function(data1) {
-			data.setValue(this.number, 2, ((new Date() - this.startTime)/1000));
-			chart.draw(data,options);
+			//data.setValue(this.number, 2, ((new Date() - this.startTime)/1000));
+			//chart.draw(data,options);
 			setInterval(function(obj){ obj.emit('registerIP', null); }, 10000,this);
 			console.log(this.number+' authenticated in '+((new Date() - this.startTime)/1000)+' sec');
 		});
 
 		clientArray[i].on('disconnect', function() {
-		data.setValue(this.number, 3, ((new Date() - this.startTime)/1000));
-		chart.draw(data,options);
+		//data.setValue(this.number, 3, ((new Date() - this.startTime)/1000));
+		//chart.draw(data,options);
 			console.log('clientArray[i] disconnected'+this.number);
 		});
 
@@ -58,27 +58,28 @@ function myTimer() {
 		});
 
 		clientArray[i].on('reconnect_error', function(e) {
-		data.setValue(this.number, 4, ((new Date() - this.startTime)/1000));
-		chart.draw(data,options);
+		//data.setValue(this.number, 4, ((new Date() - this.startTime)/1000));
+		//chart.draw(data,options);
 			console.log('clientArray[i] reconnect_error'+this.number);
 		});
 		
 		clientArray[i].on('reconnect', function(number) {
-			data.setValue(this.number, 1, ((new Date() - this.startTime)/1000));
-			chart.draw(data,options);
+			//data.setValue(this.number, 1, ((new Date() - this.startTime)/1000));
+			//chart.draw(data,options);
 		});
 
 		i++;
 		
-		if(i > 5)
+		if(i > 500)
 		{
 			myStopFunction();
 		}
 }
-
+myVar = setInterval(function(){ myTimer() }, 100);
 function myStopFunction() {
     clearInterval(myVar);
 }
+/*
 google.charts.load('current', {'packages':['table', 'map', 'corechart']});
       
 google.charts.setOnLoadCallback(drawSort);
@@ -89,7 +90,7 @@ function drawSort() {
       width: 2200,
       height: 50,
     };
-myVar = setInterval(function(){ myTimer() }, 100);
+
   data = new google.visualization.DataTable();
   data.addColumn('string', 'Name');
   data.addColumn('number', 'Connection');
@@ -112,7 +113,7 @@ myVar = setInterval(function(){ myTimer() }, 100);
 function drawChart() {
       chart.draw(data);
     }
-
+*/
 
   </script>
 
