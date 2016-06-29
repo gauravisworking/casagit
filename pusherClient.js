@@ -49,6 +49,35 @@ module.exports = {
 						    });
 					    	
 					    	
+					    	pusherChannel.bind('client-sent-to-house', function (data) {
+					    		
+					    		cloud_client_logger.info('form other deviec', data);
+								var ackObj = {
+											ack : true,
+											jobId : data.jobId
+										}
+								try {
+									var request = data;
+									
+									if (request.performAction) {
+										var newPacket = {
+											topic : request.topic,
+											payload : request.action,
+											retain : false,
+											qos : 0
+										};
+										pubSubServer.publish(newPacket, function () {});
+										var clientTopic = 'client-'+request.globalToken.toString();
+										pusherChannel.trigger(clientTopic, ackObj);
+									} else if (request.stat) {}
+									
+								} catch (e) {
+									cloud_client_logger.error('Error in parsing : ', data);
+									
+								}
+						    });
+					    	
+					    	
 					    });
 						
 					    
